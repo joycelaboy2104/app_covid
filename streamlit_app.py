@@ -29,12 +29,12 @@ fig, ax = plt.subplots()
 
 col1,col2,col3 =st.columns([1,3,1]) #esto dice que la primera y ultima columna van hacer pequenas mientras que la segunda va a ser ancha
 
-col1.image ("https://online.upr.edu/pluginfile.php/5525177/mod_resource/content/1/logouprh.png",width=150)
+col1.image ("https://github.com/elioramospr/hola_streamlit_mj/blob/main/logouprh.png?raw=true",width=150)
 #tambien puede ser algo asi = st.image("/Users\UPRH\Desktop\COMP3005LD5\logouprh.png")
 
 col2.title("Datos de Covid - Variante Omicron")
 
-col3.image("https://online.upr.edu/pluginfile.php/5525176/mod_resource/content/1/covid.png", width=150)
+col3.image("https://github.com/elioramospr/hola_streamlit_mj/blob/main/covid.png?raw=true", width=150)
 
 
 ##############################################
